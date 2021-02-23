@@ -18,4 +18,10 @@
 
 #### 결과 (output)
 * 평균 정답률 : 31%
-* 
+* 각 COLOR BOX는 한번의 K iteration 이 실행되는 동안의 epoch에 따른 loss 값의 변화를 보여준다.
+
+  k 가 새로 실행 될 때마다 다시 학습을 시작함을 확인 할 수 있으며, 전반적으로 모든 데이터에 대해 비슷한 학습 결과를 보이고 있다.
+  <img src="https://user-images.githubusercontent.com/50580028/108874102-2cb4dd80-763f-11eb-920b-d09101b2044a.png"  width="500" height="300">
+* K-FOLD 의 각 학습 결과를 저장한다.
+
+  <img src="https://user-images.githubusercontent.com/50580028/108874873-f1ff7500-763f-11eb-9d6d-b5707aa0cadb.png"  width="200" height="350">
