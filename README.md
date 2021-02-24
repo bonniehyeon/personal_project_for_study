@@ -36,6 +36,8 @@
 * K-FOLD의 각 데이터 SET은 torchvision.datasets.ImageFolder() 와 torch.utils.data.Subset() 을 사용하여 만들었다.
 
 * Custom Dataset으로 구현한다면 TEST DATA 이미지에 다양한 AUGMENTATION 효과를 주어 학습 효과를 늘릴 수 있을 것으로 기대 된다.
+
+* ensemble 방법 2가지: 각 폴드의 parameter 혹은 ouput 대한 ensemble 구현
   
 #### 참고자료
 https://github.com/skywalker023/deep_iab
